@@ -8,6 +8,8 @@ function popcount32(value: number): number {
   return (v * 0x01010101) >>> 24;
 }
 
+// test
+
 /**
  * Compact set of non-negative integer indices backed by a {@link Uint32Array}.
  *
