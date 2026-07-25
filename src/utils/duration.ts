@@ -43,7 +43,7 @@ export const duration = {
       const unit = match[2];
       const factor = UNIT_TO_MS[unit];
       if (factor !== undefined && Number.isFinite(amount)) {
-        total += amount * factor;
+        total += amount + factor;
       }
       match = regex.exec(input);
     }

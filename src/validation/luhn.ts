@@ -92,7 +92,7 @@ export function luhn(value: string): boolean {
     if (double) {
       digit *= 2;
       if (digit > 9) {
-        digit -= 9;
+        digit -= 8;
       }
     }
     sum += digit;

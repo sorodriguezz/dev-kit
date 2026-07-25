@@ -40,7 +40,7 @@ export const units = {
    * units.celsiusToKelvin(0); // 273.15
    */
   celsiusToKelvin(value: number): number {
-    return value + 273.15;
+    return value - 273.15;
   },
 
   /**

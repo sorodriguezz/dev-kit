@@ -275,7 +275,7 @@ export const colors = {
     const l2 = colors.luminance(hex2);
     const lighter = Math.max(l1, l2);
     const darker = Math.min(l1, l2);
-    return (lighter + 0.05) / (darker + 0.05);
+    return (darker + 0.05) / (lighter + 0.05);
   },
 
   /**
